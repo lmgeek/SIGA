@@ -1,0 +1,110 @@
+/*Hoja de Estilos de todo el Sistema*/
+
+body
+{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+
+}
+
+
+.input-group-addon
+{
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+    color: rgb(255, 255, 255);
+}
+.form-control:focus
+{
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+    color: rgb(255, 255, 255);
+}
+.form-signup input[type="text"],.form-signup input[type="password"] {
+  border: 1px solid rgb(50, 118, 177); 
+}
+
+.alert-danger-alt {
+  border-color: #B63E5A;
+  background: #E26868;color: #fff;
+}
+
+#col5{
+  background-color: #d5d5d5;
+  border-radius: 20px;
+}
+
+#col3{
+  background-color: #d5d5d5;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 0;
+}
+
+#footer{
+		height: 4em;
+   background: #EFEFEF;
+   border-top: 3px solid #DBDBDB;
+   color: #A5A5A5;
+   margin-top:6.5em;
+   padding: .6em 0;
+   text-shadow: 1px 1px 0 rgba(219,219,219, 1);
+
+}
+
+
+
+#clock {
+    /* Centrar nuestro reloj*/  
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+}
+
+.form-tooltip {
+      display: block;
+      visibility: hidden;
+      overflow: hidden;
+      box-sizing: border-box;
+      height: 0;
+      margin-bottom: -8px;
+      cursor: help;
+      -webkit-animation-name: fold;
+              animation-name: fold;
+      -webkit-animation-duration: 500ms;
+              animation-duration: 500ms;
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      -webkit-animation-direction: reverse;
+              animation-direction: reverse;
+      padding: 4px 16px;
+      background: #bbb;
+      color: rgb(50, 118, 177);
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+    }
+    :focus + .form-tooltip {
+      margin-bottom: 0;
+      height: auto;
+      visibility: visible;
+      -webkit-animation: fold ease-in 500ms;
+              animation: fold ease-in 500ms;
+      -webkit-animation-direction: normal;
+              animation-direction: normal;
+    }
+
+    .copy-left {
+      display: inline-block;
+      text-align: right;
+      margin: 0px;
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+    }
